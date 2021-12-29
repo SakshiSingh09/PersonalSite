@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Arial,serif;
+
+}
+
+h1{
+  font-size: 562.5%; /* 100% == 16px == 1em , 90px == 562.5% */
+  margin-top: 50px;
+  font-family: 'Sacramento',cursive;
+  margin-bottom: 0;
+  color: #66BFBF;
+}
+h2{
+  margin-top: 10px;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.6em;
+  color: #66BFBF;
+  line-height: 2;
+}
+h3{
+  font-family: 'Montserrat',sans-serif;
+  color:  #11999E;
+}
+a{
+  color:  #11999E;
+}
+.intro{
+  width: 30%;
+  color: #40514E;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 50px;
+  margin: auto;
+}
+.profile-pic{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color: #E4F9F5;
+  font-weight: bolder;
+  color: #40514E;
+}
+.middle-container{
+  margin-top: 100px;
+  background-color: white;
+  font-weight: bolder;
+  color: #40514E;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding: 40px;
+  font-weight: bolder;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.comp{
+  border-radius: 50%;
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+.chilly{
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+.bottom-container a{
+  color: #11999E;
+  padding: 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.bottom-container p{
+  color: #EAF6F6;
+  margin-top: 40px;
+}
+.middle-container hr{
+  border-style: none;
+  border-top-width: thick;
+  border-top-style: dotted;
+  width: 4%;
+  border-top-color: grey;
+  align-items: center;
+  margin: 100px auto;
+}
+.contact-me h2{
+  margin-top: 50px;
+}
+.btn{
+  margin: auto;
+  padding: 10px 20px 10px 20px;
+  background: #11cdd4;
+  background-image: linear-gradient(top,#11cdd4,#11999e);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.btn:hover{
+  background: #30e3cb;
+  background-image: linear-gradient(top,#30e3cb,#2bc4ad);
+}
+.skills{
+  margin-top: 50px;
+}
+.contact-me p{
+  width: 30%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.contact-me h3{
+  margin-bottom: 50px;
+}
